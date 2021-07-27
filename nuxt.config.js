@@ -31,6 +31,37 @@ export default {
       { rel: 'stylesheet', type: 'text/css', href: '/assets/css/style.css', id: 'theme-opt'},
       { rel: 'stylesheet', type: 'text/css', href: '/assets/css/colors/default.css', id: 'color-opt'},
       { rel: 'stylesheet', type: 'text/css', href: '/assets/css/owl.transitions.css'},
+    ],
+    script: [
+      {src: 'assets/js/jquery.min.js'},
+      {src: 'assets/js/bootstrap.bundle.min.js'},
+      {src: 'assets/js/jquery.easing.min.js'},
+      {src: 'assets/js/scrollspy.min.js'},
+      <!-- SLIDER -->
+      {src: 'assets/js/owl.carousel.min.js'},
+      <!-- Magnific Popup -->
+      {src: 'assets/js/jquery.magnific-popup.min.js'},
+      {src: 'assets/js/isotope.js'},
+      {src: 'assets/js/portfolio-filter.js'},
+      {src: 'assets/js/magnific.init.js'},
+      <!-- Contact -->
+      {src: 'assets/js/contact.js'},
+      <!-- Counter -->
+      {src: 'assets/js/counter.init.js'},
+      <!-- Tweenmax Js -->
+      {src: 'assets/js/jquery-twennmax.js'},
+      {src: 'assets/js/TweenMax.min.js'},
+      {src: 'assets/js/jquery-twennmax.init.js'},
+      <!-- Feather icon -->
+      {src: 'assets/js/feather.min.js'},
+      <!-- Ripples -->
+      {src: 'assets/js/jquery.ripples-min.js'},
+      {src: 'assets/js/ripple.init.js'},
+      <!-- Typed -->
+      {src: 'assets/js/typed.js'},
+      {src: 'assets/js/typed.init.js'},
+      <!-- Main Js -->
+      {src: 'assets/js/app.js'},
     ]
   },
 
