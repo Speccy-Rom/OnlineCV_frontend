@@ -15,7 +15,22 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      <!-- favicon -->
+      { rel: 'icon', type: 'image/x-icon', href: '/assets/images/favicon.ico' },
+      <!-- Bootstrap -->
+      { rel: 'stylesheet', type: 'text/css', href: '/assets/css/bootstrap.min.css'},
+      <!-- Magnific -->
+      { rel: 'stylesheet', type: 'text/css', href: '/assets/css/magnific-popup.css'},
+      <!-- Icon -->
+      { rel: 'stylesheet', type: 'text/css', href: '/assets/css/materialdesignicons.min.css'},
+      <!-- SLICK SLIDER -->
+      { rel: 'stylesheet', type: 'text/css', href: '/assets/css/owl.carousel.min.css'},
+      { rel: 'stylesheet', type: 'text/css', href: '/assets/css/owl.theme.css'},
+      { rel: 'stylesheet', type: 'text/css', href: '/assets/css/owl.transitions.css'},
+      <!-- Custom Css -->
+      { rel: 'stylesheet', type: 'text/css', href: '/assets/css/style.css', id: 'theme-opt'},
+      { rel: 'stylesheet', type: 'text/css', href: '/assets/css/colors/default.css', id: 'color-opt'},
+      { rel: 'stylesheet', type: 'text/css', href: '/assets/css/owl.transitions.css'},
     ]
   },
 
